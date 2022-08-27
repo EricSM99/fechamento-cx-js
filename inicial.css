@@ -1,0 +1,27 @@
+body {
+    background-image: url(https://lh3.googleusercontent.com/GOSIrniNCoJP8Tf7rKDy75axjEh3VFvLteEQ7qkRXeFmN9MGqhD2PnD37wL9VSJg5rHM33JFIzlUt5lDxb5Rov-HeAt4BEGMGMqUtwmo0oDFKZABfPJQ_uarvI19qTCq-zhBlHRdDo6poN0os-MGIDlN5Tjd_Mous1oQnxWuzS7HeYi7SW6wO8UcfbPm66s6Gswn1ASaSEGF0gDa4WDXYqJnatt7YSXCUfRdtyBBUvvgOXofnZZvJy1trKujHj7N3ZKlb1iA3Wx1c6z5kryDi0U4AXktDiy74N9gW6Fc-osBxzMdJusQhOfKu94uK64K2qPNh0wgGWfUvLfCMf-cL57rBDxhCI00Gyt41QezNQ4c5yVuZw2zWnHQEAFKqQ2ZL-N00jI_oFUwDwihgdNTtVjxPtanHGKapylI2LjedzFNHV1s5p-ZxJZ3SSzlWajiQvuzCF1YEZ41zcpVhWSOYwwpE2CLWFsjqJNHZec6QYsh53N1a5Nscx-Z0w2B0TFumC_MmlO0aS5fBh3GmfmgG-pgaVoqeOgE_xAatmFbNs21tc203JiRCzSIwSJP8IPDgXu2MRw05yG9rL0gZ1liaBxlIZflXDG2yXs5isxB1fGZ0Qkf-ytxLH4H0sKbK14gCdKo1J8rNVMoIQ_Iqv0lvJ-_psF0voSKkugzpFdZrrP4k4wS4JZ1-VvQ7X2-Y2JAWHySVaEFLphg9IvCiwlDcMR6ykh65N5kE0mMSMnXX_FRIlLV3_ztL4trzyqk9Fc=s978-no?authuser=0);
+    background-position: center;
+    background-size: 50%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.bloco {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 300px;
+    font-size: 50px;
+}
+
+.bloco-1 {
+    background-color: black;
+    color: red;
+}
+
+a {
+
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}

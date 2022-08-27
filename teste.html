@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="titu">
+        <h2>Digite a quantidade de pizzas P</h2>
+        <input type="number" name="pizzap" id="pizzap">
+
+        <h2>Digite a quantidade de pizzas M</h2>
+        <input type="number" name="pizzam" id="pizzam">
+
+        <h2>Digite a quantidade de pizzas G</h2>
+        <input type="number" name="pizzag" id="pizzag">
+
+        <h2>Digite a quantidade de pizza com bordas</h2>
+        <input type="number" name="bordas" id="bordas">
+
+        <h2>Digite a quantidade de refrigerante de 1L</h2>
+        <input type="number" name="r1" id="r1">
+
+        <h2>Digite a quantidade de refrigerante de 2L</h2>
+        <input type="number" name="r2" id="r2">
+
+        <h2>Digite o valor recebido no PIX</h2>
+        <input type="number" name="pix" id="pix">
+
+        <h2>Digite o valor gasto com gasolina</h2>
+        <input type="number" name="gasolina" id="gasolina">
+
+        <br>
+        <br>
+        <br>
+
+        <input type="button" value="Resultado" class="btn" onclick="soma()">
+    </div>
+
+    <div id="res">Resultado</div>
+
+    <script>
+
+        function soma() {
+            var pizzap = window.document.getElementById('pizzap')
+            var pizzam = window.document.getElementById('pizzam')
+            var pizzag = window.document.getElementById('pizzag')
+            var bordas = window.document.getElementById('bordas')
+            var r1 = window.document.getElementById('r1')
+            var r2 = window.document.getElementById('r2')
+            var pix = window.document.getElementById('pix')
+            var gasolina = window.document.getElementById('gasolina')
+
+            var res = window.document.getElementById('res')
+
+            var pizzap = Number(pizzap.value)
+            var pizzap = pizzap * 25
+            var pizzam = Number(pizzam.value)
+            var pizzam = pizzam * 30
+            var pizzag = Number(pizzag.value)
+            var pizzag = pizzag * 35
+            var bordas = Number(bordas.value)
+            var bordas = bordas * 5
+            var r1 = Number(r1.value)
+            var r1 = r1 * 5
+            var r2 = Number(r2.value)
+            var r2 = r2 * 7
+            var pix = Number(pix.value)
+            var gasolina = Number(gasolina.value)
+
+            var adicao = pizzap + pizzam + pizzag + bordas + r1 + r2
+
+            var s = adicao - pix - gasolina
+
+            res.innerHTML = `<p>Valor total apurado hoje foi de R$${adicao} reais`
+            res.innerHTML += `Valor em espécie no caixa é de R$${s} reais`
+        }
+        
+    </script>
+</body>
+
+</html>

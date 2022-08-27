@@ -1,0 +1,48 @@
+body {
+    background-image: url(https://i0.wp.com/multarte.com.br/wp-content/uploads/2018/12/fundo-preto-background.png?fit=1920%2C1080&ssl=1);
+    background-position: center;
+    background-size: 50%;
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.titu {
+    color: white;
+}
+
+.btn {
+    background-color: blue;
+    color: white;
+    padding: 5px 8px;
+    width: 100px;
+    border: 1px solid blue;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all .3s ease;
+
+}
+
+.btn:hover {
+    background-color: white;
+    color: blue;
+
+}
+
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input {
+    size: ;
+    width: 60px;
+    font-size: 15px;
+
+}
+
+
+div#res {
+    margin-top: 20px;
+}
